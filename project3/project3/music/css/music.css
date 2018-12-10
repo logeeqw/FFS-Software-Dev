@@ -1,0 +1,52 @@
+@import "overrides.css";
+
+body{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+}
+
+.back-img{
+    margin-top: 17%;
+    margin-left: 27%;
+    flex: 1;
+    /*flex-grow: 2;*/
+    overflow: hidden;
+    position: absolute;
+    /*height:100%;*/
+    /*width: 100%;*/
+    z-index: -5;
+}
+
+.extra-back{
+    margin-top: 100%;
+    flex: 1;
+    /*overflow: hidden;*/
+    position: absolute;
+    height:0%;
+    width: 0%;
+    z-index: -5;
+}
+
+.content{
+    margin-left: 1%;
+    flex: 1;
+    width: 30%;
+    margin-top: -3%;
+}
+
+.content2{
+    width: 30%;
+    flex: 1;
+    justify-content: end;
+    margin-left: 67%;
+    margin-top: -38%;
+}
+
+@media only screen and(max-width:1390px )  {
+
+    .back-pic{
+        margin-left: -15%
+    }
+}
