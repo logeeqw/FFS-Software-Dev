@@ -1,0 +1,77 @@
+@import "foundation.css";
+/*@import "overrides.scss";*/
+
+
+/*classes*/
+.title{
+  margin-left: 37%;
+  width:380px;
+  height: 214px;
+}
+
+.container{
+  display:flex;
+  flex-direction: column;
+  max-width:100%;
+}
+
+.align-right{
+  align-self: flex-end;
+}
+
+.top-row{
+  align-items: baseline;
+}
+
+
+/*ids*/
+#bar{
+  width: 500px;
+  height: 40px;
+}
+
+#gmail{
+  margin-left: 83%;
+  margin-top: -1%;
+  position: absolute;
+}
+
+#images{
+  margin-left: 87%;
+  margin-top: -1%;
+  position: absolute;
+}
+
+#store{
+  margin-top: -1.15%;
+  margin-left: 4%;
+}
+
+#grid{
+  width: 20px;
+  margin-left: 93%;
+  margin-top: -2%;
+}
+
+#signin{
+  color: white;
+  margin-left: 96%;
+}
+
+#about{
+  margin-top: 1%;
+}
+
+/*links*/
+a:link{
+  text-decoration: none;
+  color: black;
+}
+
+a:visited{
+  color: black;
+}
+
+a:hover{
+  text-decoration: underline;
+}
